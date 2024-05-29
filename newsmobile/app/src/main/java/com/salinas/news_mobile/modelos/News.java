@@ -1,10 +1,21 @@
 package com.salinas.news_mobile.modelos;
 
 public class News {
+    private String author;
     private String title;
     private String description;
+    private String publishedAt;
+    private String content;
     private String url;
     private String urlToImage;
+
+    public String getAuthor() {
+        return author;
+    }
+
+    public void setAuthor(String author) {
+        this.author = author;
+    }
 
     public String getTitle() {
         return title;
@@ -20,6 +31,22 @@ public class News {
 
     public void setDescription(String description) {
         this.description = description;
+    }
+
+    public String getPublishedAt() {
+        return publishedAt;
+    }
+
+    public void setPublishedAt(String publishedAt) {
+        this.publishedAt = publishedAt;
+    }
+
+    public String getContent() {
+        return content;
+    }
+
+    public void setContent(String content) {
+        this.content = content;
     }
 
     public String getUrl() {
