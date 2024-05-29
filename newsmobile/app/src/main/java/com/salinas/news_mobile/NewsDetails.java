@@ -25,13 +25,13 @@ public class NewsDetails extends AppCompatActivity {
         // Mostrar los datos en las vistas correspondientes
         TextView titleTextView = findViewById(R.id.titleTextView);
         TextView authorTextView = findViewById(R.id.authorTextView);
-        TextView descriptionTextView = findViewById(R.id.descriptionTextView;
+        TextView descriptionTextView = findViewById(R.id.descriptionTextView);
         TextView publishedAtTextView = findViewById(R.id.publishedAtTextView);
         TextView contentTextView = findViewById(R.id.contentTextView);
         ImageView imageView = findViewById(R.id.imageView);
 
         titleTextView.setText(title);
-        authorTextView.setText(author); // Establecer el autor en el TextView correspondiente
+        authorTextView.setText(author);
         descriptionTextView.setText(description);
         publishedAtTextView.setText(publishedAt);
         contentTextView.setText(content);

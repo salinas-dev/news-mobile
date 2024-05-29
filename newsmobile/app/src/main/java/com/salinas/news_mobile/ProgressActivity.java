@@ -16,6 +16,6 @@ public class ProgressActivity extends AppCompatActivity {
             Intent intent = new Intent(ProgressActivity.this, MainActivity.class);
             startActivity(intent);
             finish();
-        }, 3000); // 3000 ms = 3 segundos
+        }, 300); // 3000 ms = 3 segundos
     }
 }
