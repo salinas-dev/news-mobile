@@ -16,7 +16,7 @@ public class NewsDetails extends AppCompatActivity {
         // Obtener los datos de la noticia seleccionada
         Intent intent = getIntent();
         String title = intent.getStringExtra("title");
-        String author = intent.getStringExtra("author"); // Obtener el autor del Intent
+        String author = intent.getStringExtra("author");
         String description = intent.getStringExtra("description");
         String publishedAt = intent.getStringExtra("publishedAt");
         String content = intent.getStringExtra("content");
@@ -24,8 +24,8 @@ public class NewsDetails extends AppCompatActivity {
 
         // Mostrar los datos en las vistas correspondientes
         TextView titleTextView = findViewById(R.id.titleTextView);
-        TextView authorTextView = findViewById(R.id.authorTextView); // TextView para el autor
-        TextView descriptionTextView = findViewById(R.id.descriptionTextView);
+        TextView authorTextView = findViewById(R.id.authorTextView);
+        TextView descriptionTextView = findViewById(R.id.descriptionTextView;
         TextView publishedAtTextView = findViewById(R.id.publishedAtTextView);
         TextView contentTextView = findViewById(R.id.contentTextView);
         ImageView imageView = findViewById(R.id.imageView);
